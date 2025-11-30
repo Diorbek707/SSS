@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Fudbal" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="body">
+
+    <div class="container">
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Enter your movie name">
+            <select id="categorySelect">
+                <option value="all">all</option>
+                <option value="Fudbal">Fudbal</option>
+            </select>
+
+            <select id="sortSelect">
+                <option value="none">Sort</option>
+                <option value="rating">Rating</option>
+                <option value="year">Year</option>
+            </select>
+
+            <button id="searchBtn">Search</button>
+        </div>
+
+        <div id="movieContainer" class="movie-container"></div>
+
+
+
+
+        <script src="script.js"></script>
+</body>
+
+</html>

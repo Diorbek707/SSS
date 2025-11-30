@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #1f1f1f;
+  font-family: Arial;
+  color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.search-bar {
+  display: flex;
+  gap: 10px;
+  padding: 25px;
+  justify-content: center;
+}
+
+.search-bar input,
+.search-bar select {
+  padding: 10px;
+  width: 250px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+}
+
+#searchBtn {
+  padding: 10px 20px;
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.movie-container {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: center;
+}
+
+.movie-card {
+  width: 230px;
+  background: #2d2d2d;
+  border-radius: 10px;
+  overflow: hidden;
+  padding-bottom: 15px;
+}
+
+.movie-card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+
+.movie-card h3 {
+  font-size: 16px;
+  margin: 10px;
+}
+
+.movie-card .info {
+  font-size: 14px;
+  margin: 0 10px;
+  color: #d3d3d3;
+}
+
+.more-btn {
+  background: green;
+  border: none;
+  color: white;
+  padding: 10px;
+  width: 90%;
+  display: block;
+  margin: 10px auto 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.body {
+  font-family: Arial, sans-serif;
+  background-image: url(http://smotreshka.server-img.lfstrm.tv/image/aHR0cHM6Ly9jbXMuc21vdHJlc2hrYS50di9hcmNoaXZlLWltZy9zdGF0aWMvbWVkaWEvNWUvOTcvNWU5NzNhYzM2ZjNmNGUzYjEwYmJmOTE1MDlmODM1NjA=);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
